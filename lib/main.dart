@@ -2,7 +2,6 @@ import 'package:bloctest/viewmodel/bloc/cubit/posts/PostCubit.dart';
 import 'package:bloctest/viewmodel/database/network/dio-helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'view/Screens/postScreen.dart';
 import 'viewmodel/bloc/MyBlocObserver.dart';
 import 'viewmodel/database/local/shared_helper.dart';
@@ -29,7 +28,7 @@ class MyApp extends StatelessWidget {
 
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'posts',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
